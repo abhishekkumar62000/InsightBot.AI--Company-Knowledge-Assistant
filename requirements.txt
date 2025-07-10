@@ -1,0 +1,9 @@
+streamlit
+langchain
+groq
+python-dotenv
+PyPDF2
+tika
+docx2txt
+gemini-api
+langgraph
