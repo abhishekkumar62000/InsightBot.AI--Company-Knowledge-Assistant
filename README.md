@@ -3,6 +3,27 @@
 
 https://github.com/user-attachments/assets/eca741b3-291c-4825-888c-fcc2d926e3fb
 
+## 🧠 InsightBot.AI: Company Knowledge Assistant 🤖  
+🌐 Live App 🔗 **[Launch InsightBot.AI](https://insightbot-ai-company-knowledge-assistant.streamlit.app/)**
+
+<p align="center">
+  <b>Your AI-Powered Document Chat Assistant for Smarter Company Knowledge Access</b><br>
+  Upload 📄 | Ask 💬 | Cite 🔍 | Summarize ✨ | Translate 🌍 | All in One Streamlit App 🚀
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Streamlit-UI-red?style=for-the-badge&logo=streamlit" />
+  <img src="https://img.shields.io/badge/AI%20Powered-Gemini%20%7C%20Groq-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Multilingual-Translate%20Enabled-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ChromaDB-DuckDB%20Backend-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Knowledge%20Bot-LangChain%20%7C%20LangGraph-yellow?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2l2bzdjeWpoZ25qYm13aGhxZ3h3ZXVvcHI2aHYxdTdtcHh0dTlhbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/7SF5scGB2AFrgsXP63/giphy.gif" width="70%" />
+</p>
+
+
 
 # 🧠 InsightBot.AI: Company Knowledge Assistant 🤖
 
