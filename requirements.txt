@@ -8,3 +8,4 @@ tika
 docx2txt
 gemini-api
 langgraph
+sentence-transformers
