@@ -3,7 +3,7 @@
 
 https://github.com/user-attachments/assets/eca741b3-291c-4825-888c-fcc2d926e3fb
 
-## 🧠 InsightBot.AI: Company Knowledge Assistant 🤖  
+## 🧠 InsightBot.AI: RAG Company Knowledge Assistant 🤖  
 🌐 Live App 🔗 **[Launch InsightBot.AI](https://insightbot-ai-company-knowledge-assistant.streamlit.app/)**
 
 <p align="center">
@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/eca741b3-291c-4825-888c-fcc2d926e3fb
 
 
 
-# 🧠 InsightBot.AI: Company Knowledge Assistant 🤖
+# 🧠 InsightBot.AI: Company Knowledge RAG Assistant 🤖
 
 🔗 **Live App**: [https://insightbot-ai-company-knowledge-assistant.streamlit.app/](https://insightbot-ai-company-knowledge-assistant.streamlit.app/)
 
