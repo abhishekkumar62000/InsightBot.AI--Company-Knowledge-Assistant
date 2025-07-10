@@ -1,6 +1,6 @@
 <img width="894" height="702" alt="AI" src="https://github.com/user-attachments/assets/f4219fe7-a1a5-4d45-820f-992842f3d9c3" />
 <img width="1916" height="1080" alt="page0 fronend" src="https://github.com/user-attachments/assets/3460988c-52a6-4498-bed2-6f4763ff991f" />
---- Live Video Demo
+
 https://github.com/user-attachments/assets/eca741b3-291c-4825-888c-fcc2d926e3fb
 
 
@@ -8,7 +8,8 @@ https://github.com/user-attachments/assets/eca741b3-291c-4825-888c-fcc2d926e3fb
 
 🔗 **Live App**: [https://insightbot-ai-company-knowledge-assistant.streamlit.app/](https://insightbot-ai-company-knowledge-assistant.streamlit.app/)
 
-InsightBot.AI is a powerful AI-powered knowledge assistant tailored for companies and teams. It allows users to **upload internal documents**, builds a **searchable knowledge base**, and enables smart interaction through **natural language queries** in multiple languages — all through a beautiful, modern Streamlit UI.
+InsightBot.AI is a powerful AI-powered knowledge assistant tailored for companies and teams. It allows users to **upload internal documents**, builds a **searchable knowledge base**, and enables smart interaction through **natural language queries** in multiple languages — all through a beautiful, modern Streamlit UI
+InsightBot.AI: Company Knowledge Assistant is a modern, interactive Streamlit web application designed to serve as a custom company knowledge base chatbot. It enables users to upload multiple document types (PDF, DOCX, TXT), builds a searchable knowledge base using advanced AI (LangChain, Gemini, Groq, LangGraph), and provides an engaging chat interface for Q&A with context-aware answers and source citations. The app is visually vibrant, supports multilingual interaction, and is robustly engineered for both local and cloud deployment..
 
 ---
 
