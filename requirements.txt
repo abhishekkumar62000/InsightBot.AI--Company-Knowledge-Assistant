@@ -8,6 +8,7 @@ PyPDF2
 tika
 docx2txt
 gemini-api
+langchain-google-genai
 langgraph
 googletrans==4.0.0-rc1
 sentence-transformers
