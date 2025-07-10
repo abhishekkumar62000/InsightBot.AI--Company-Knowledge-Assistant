@@ -1,6 +1,5 @@
 streamlit
 langchain
-langchain_community.embeddings
 groq
 python-dotenv
 PyPDF2
