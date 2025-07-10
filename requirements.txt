@@ -3,7 +3,6 @@ langchain
 langchain-community
 groq
 python-dotenv
-chromadb
 duckdb
 PyPDF2
 tika
