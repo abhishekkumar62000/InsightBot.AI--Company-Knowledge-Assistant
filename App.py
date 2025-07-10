@@ -142,32 +142,46 @@ uploaded_files = st.sidebar.file_uploader(
 
 # --- Multilingual Support ---
 try:
-    from googletrans import Translator # type: ignore
-    translator = Translator()
-    st.sidebar.subheader("Language Settings")
-    language_options = {
-        "English": "en",
-        "Hindi": "hi",
-        "French": "fr",
-        "German": "de",
-        "Spanish": "es",
-        "Chinese": "zh-cn",
-        "Arabic": "ar"
-    }
-    selected_language = st.sidebar.selectbox("Select your preferred language:", list(language_options.keys()), key="lang_select")
-    language_code = language_options[selected_language]
+    from deep_translator import GoogleTranslator  # type: ignore
     def translate_text(text, dest_lang):
         if dest_lang == "en":
             return text
         try:
-            return translator.translate(text, dest=dest_lang).text
+            return GoogleTranslator(source='auto', target=dest_lang).translate(text)
         except Exception:
             return text
+    translator_lib = "deep-translator"
 except ImportError:
-    st.sidebar.warning("Install googletrans for multilingual support: pip install googletrans==4.0.0-rc1")
-    language_code = "en"
-    def translate_text(text, dest_lang):
-        return text
+    try:
+        from googletrans import Translator  # type: ignore
+        translator = Translator()
+        def translate_text(text, dest_lang):
+            if dest_lang == "en":
+                return text
+            try:
+                return translator.translate(text, dest=dest_lang).text
+            except Exception:
+                return text
+        translator_lib = "googletrans"
+    except ImportError:
+        translator_lib = None
+        def translate_text(text, dest_lang):
+            return text
+
+st.sidebar.subheader("Language Settings")
+language_options = {
+    "English": "en",
+    "Hindi": "hi",
+    "French": "fr",
+    "German": "de",
+    "Spanish": "es",
+    "Chinese": "zh-cn",
+    "Arabic": "ar"
+}
+selected_language = st.sidebar.selectbox("Select your preferred language:", list(language_options.keys()), key="lang_select")
+language_code = language_options[selected_language]
+if translator_lib is None:
+    st.sidebar.warning("Install deep-translator or googletrans for multilingual support: pip install deep-translator OR pip install googletrans==4.0.0-rc1")
 
 if uploaded_files:
     st.session_state.docs.clear()  # Clear previous docs on new upload
