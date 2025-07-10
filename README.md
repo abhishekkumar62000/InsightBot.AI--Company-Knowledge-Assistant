@@ -1,6 +1,9 @@
+<img width="894" height="702" alt="AI" src="https://github.com/user-attachments/assets/f4219fe7-a1a5-4d45-820f-992842f3d9c3" />
+<img width="1916" height="1080" alt="page0 fronend" src="https://github.com/user-attachments/assets/3460988c-52a6-4498-bed2-6f4763ff991f" />
+--- Live Video Demo
+https://github.com/user-attachments/assets/eca741b3-291c-4825-888c-fcc2d926e3fb
 
 
-````markdown
 # 🧠 InsightBot.AI: Company Knowledge Assistant 🤖
 
 🔗 **Live App**: [https://insightbot-ai-company-knowledge-assistant.streamlit.app/](https://insightbot-ai-company-knowledge-assistant.streamlit.app/)
@@ -182,7 +185,7 @@ All this is wrapped in a stunningly styled and fully interactive **Streamlit UI*
 
 1. **Clone the Repo**
 ```bash
-git clone https://github.com/your-username/insightbot-ai.git
+git clone https://github.com/abhishekkumar62000/InsightBot.AI--Company-Knowledge-Assistant.git
 cd insightbot-ai
 ````
 
@@ -283,7 +286,7 @@ streamlit run App.py
 
 ## 📜 License
 
-MIT License © 2025 \[Your Name]
+MIT License © 2025 \[Abhishek]
 
 ---
 
@@ -303,14 +306,4 @@ Big thanks to these tools and communities:
 
 > Built with ❤️Abhishek Yadav to make enterprise knowledge smarter, faster, and multilingual.
 
-```
-
----
-
-✅ Let me know if you'd like this `README.md` saved and sent to you as a downloadable file. I can also help:
-- Add GitHub badges
-- Create a project logo/banner
-- Generate screenshots mockups for your repo
-
-Want that?
 ```
