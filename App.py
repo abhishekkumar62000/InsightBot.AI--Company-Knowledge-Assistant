@@ -180,8 +180,6 @@ language_options = {
 }
 selected_language = st.sidebar.selectbox("Select your preferred language:", list(language_options.keys()), key="lang_select")
 language_code = language_options[selected_language]
-if translator_lib is None:
-    st.sidebar.warning("Install deep-translator or googletrans for multilingual support: pip install deep-translator OR pip install googletrans==4.0.0-rc1")
 
 if uploaded_files:
     st.session_state.docs.clear()  # Clear previous docs on new upload
