@@ -4,6 +4,7 @@ langchain-community
 groq
 python-dotenv
 chromadb
+duckdb
 PyPDF2
 tika
 docx2txt
