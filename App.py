@@ -1,4 +1,5 @@
 import os
+os.environ["CHROMA_DB_IMPL"] = "duckdb"
 import streamlit as st
 from dotenv import load_dotenv
 from utils.document_loader import extract_text
