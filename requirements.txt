@@ -4,6 +4,7 @@ langchain-community
 groq
 python-dotenv
 duckdb
+deep-translator
 PyPDF2
 tika
 docx2txt
